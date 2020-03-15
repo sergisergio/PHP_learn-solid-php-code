@@ -14,3 +14,9 @@ Copyrights
 
 Images and pictures are under domain public: you can retrieve the mp3 files using the [Free Music Archive'](https://freemusicarchive.org) and the picture on Google Images (filter by authorizations).
 # learn-solid-php-code
+
+Source
+---------
+
+[Openclassrooms](https://openclassrooms.com/fr/courses/6031956-creez-une-application-web-en-php-de-qualite-professionnelle/6107761-structurez-le-traitement-de-votre-transaction-avec-larchitecture-mvc)
+
