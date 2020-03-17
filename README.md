@@ -4,8 +4,14 @@ A simple PHP application to learn MVC and OOP
 Installation:
 -------------
 
-1) Dump the script sql on your database
+1) Dump the script sql on your database (dev directory)
 2) Configure pathway in 'config' directory
+* create a config.php
+* create a config_db.php
+
+```
+composer install
+```
 
 It's done.
 

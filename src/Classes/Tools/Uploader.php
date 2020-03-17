@@ -26,8 +26,19 @@ class Uploader
         $this->validTypes = $validTypes;
     }
 
-    public function uploadFile($directory = './')
+    public function uploadFile($directory = '../')
     {
+        // echo '<pre>';
+        // var_dump($this->temporaryName);
+        // echo '</pre>';
+        // echo '<pre>';
+        // var_dump($directory);
+        // echo '</pre>';
+        // echo '<pre>';
+        // var_dump($this->name);
+        // echo '</pre>';
+        //     die();
+
         if (!is_uploaded_file($this->temporaryName)) {
             $this->error = 'Vous avez rien uploadé';
 

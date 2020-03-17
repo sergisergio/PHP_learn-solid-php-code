@@ -15,7 +15,7 @@ function get($configKey, $default)
 
 define('SERVEUR_URL', get('SERVEUR_URL', 'http://localhost:8000'));
 define('BASE_URL', SERVEUR_URL . '/');
-define('BASE_FILE', __DIR__.'/../');
+define('BASE_FILE', __DIR__.'/');
 define('VIEWS', __DIR__.'/../views/');
 
 define('PUBLIC_URL', BASE_URL . 'public/');
